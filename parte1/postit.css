@@ -39,19 +39,31 @@ section {
   font-weight: 400;
 }
 
+@keyframes incolla {
+  0% {
+    scale: 4;
+  }
+  100% {
+    sclale: 1;
+  }
+}
+
 #viola {
   background-color: #957dad;
   transform: rotate(-34deg);
+  animation: incolla 1s linear;
 }
 
 #verde {
   background-color: #9edba2;
   transform: rotate(19deg);
+  animation: incolla 1s linear;
 }
 
 #giallo {
   background-color: #f9e394;
   transform: rotate(31deg);
+  animation: incolla 1s linear;
 }
 
 #viola:hover,

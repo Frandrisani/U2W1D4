@@ -1,0 +1,87 @@
+html {
+  font-family: "Indie Flower";
+}
+
+body {
+  background: rgb(161, 163, 163);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  vertical-align: baseline;
+  align-items: center;
+}
+
+.postit {
+  box-shadow: 5px 5px 7px 5px rgba(0, 0, 0, 0.32);
+  width: 250px;
+  height: 160px;
+  margin: 1.5em 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.postit h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-bottom: 0.2em;
+}
+
+.postit p {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+#viola {
+  background-color: #957dad;
+  transform: rotate(-34deg);
+}
+
+#verde {
+  background-color: #9edba2;
+  transform: rotate(19deg);
+}
+
+#giallo {
+  background-color: #f9e394;
+  transform: rotate(348deg);
+}
+
+#viola:hover,
+#verde:hover,
+#giallo:hover {
+  transform: rotate(0deg) scale(1.2);
+  z-index: 4;
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    height: 100vh;
+  }
+
+  body {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .postit {
+    margin: 4em 2em;
+  }
+}

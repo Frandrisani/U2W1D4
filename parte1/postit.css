@@ -25,6 +25,7 @@ section {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  transition: transform 0.3s linear 0s;
 }
 
 .postit h1 {
@@ -50,7 +51,7 @@ section {
 
 #giallo {
   background-color: #f9e394;
-  transform: rotate(348deg);
+  transform: rotate(31deg);
 }
 
 #viola:hover,
@@ -83,5 +84,7 @@ section {
 
   .postit {
     margin: 4em 2em;
+    width: 250px;
+    height: 180px;
   }
 }

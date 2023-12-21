@@ -34,8 +34,12 @@ html {
     opacity: 0;
   }
 
-  40% {
-    transform: translateY(-5.5px);
+  30% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  60% {
+    transform: translateY(0px);
     opacity: 1;
   }
 
@@ -46,13 +50,13 @@ html {
 }
 
 i:nth-child(1) {
-  animation: translate 8s linear 0s 1;
+  animation: translate 6s linear 0s 1;
 }
 
 i:nth-child(2) {
-  animation: translate 8s linear 8s 1;
+  animation: translate 6s linear 8s 1;
 }
 
 i:nth-child(3) {
-  animation: translate 8s linear 16s infinite;
+  animation: translate 6s linear 16s infinite;
 }
